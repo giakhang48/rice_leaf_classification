@@ -1,6 +1,6 @@
 # Rice Leaf Disease Classification (Classical ML)
 
-Image classification of 8 rice leaf conditions using **only classical machine learning** (no deep learning), built for the *FPTU Can Tho Olympic AI 2026 – Vòng Loại Warmup* competition on Kaggle and later extended as a course assignment.
+Image classification of 8 rice leaf conditions using **only classical machine learning** (no deep learning), built as a course project on the dataset of the *FPTU Can Tho Olympic AI 2026 – Vòng Loại Warmup* competition on Kaggle.
 
 ## Results
 
@@ -11,7 +11,7 @@ Image classification of 8 rice leaf conditions using **only classical machine le
 | Test Macro F1, private score | **0.782** |
 | Test Macro F1, public score | 0.702 |
 
-The test scores come from a course-assigned submission made **after the competition deadline**, so they are not part of the official leaderboard.
+The test scores come from a submission made **after the competition deadline**, so they are not part of the official leaderboard.
 
 Validation is higher than test because the competition test set contains noisy images (occlusion, shadows, colour shift, blur) while validation was split from the clean training data. Augmentation (below) is meant to narrow that gap.
 
